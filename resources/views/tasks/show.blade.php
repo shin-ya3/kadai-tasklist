@@ -7,14 +7,14 @@
     <table class="table table-bordered">
         <tr>
             <th>id</th>
-            <th>項目</th>
             <th>ステータス</th>
+            <th>項目</th>
             
         </tr>
         <tr>
             <td>{{ $task->id }}</td>
-            <td>{{ $task->content }}</td>
             <td>{{ $task->status }}</td>
+            <td>{{ $task->content }}</td>
         </tr>
     </table>
     
